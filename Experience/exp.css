@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+    background-color: coral;
+    height: 69px;
+    border: dotted;
+}
+
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#main-content {
+    text-decoration: none;
+}
+
+.nav-link {
+    border: 2px solid black;
+}
+
+.nav-link:hover {
+    padding: 50px;
+    background-color: aquamarine;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    font-size: larger;
+    text-align: center;
+}
+
+ul {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+li {
+    margin-left: 50%;
+    margin-right: 50%;
+}
